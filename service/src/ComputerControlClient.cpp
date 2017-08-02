@@ -28,7 +28,6 @@
 #include "ComputerControlClient.h"
 #include "ComputerControlServer.h"
 
-
 ComputerControlClient::ComputerControlClient( ComputerControlServer* server,
 											  QTcpSocket* clientSocket,
 											  int vncServerPort,
